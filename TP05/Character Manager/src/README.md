@@ -91,3 +91,79 @@ Setelah kelima karakter ditambahkan, jumlah level adalah 65 dengan rata-rata 13,
 ### 5. Dokumentasi Analisis
 
 Link Google Docs Bagian D: [https://docs.google.com/document/d/1rtMcYTYg-kMUiohkacpK41TwihrFspRS_YsXwG5iSBs/edit?usp=sharing]
+
+
+# TP10 - Character Manager
+
+## Deskripsi
+
+Character Manager adalah aplikasi desktop berbasis Java Swing yang digunakan untuk menampilkan data karakter dalam bentuk kartu. Proyek ini merupakan pengembangan antarmuka versi 0.4 dengan penerapan tema visual dan pemisahan tanggung jawab class.
+
+## Tujuan
+
+- Memahami penerapan OOP dalam aplikasi Java.
+- Memisahkan pengelolaan data dan tampilan aplikasi.
+- Menggunakan AppTheme untuk mengatur desain antarmuka.
+- Menampilkan informasi karakter secara terstruktur.
+- Menerapkan perbedaan tampilan berdasarkan role dan level karakter.
+
+## Teknologi
+
+- Java
+- Java Swing
+- Visual Studio Code
+- Git dan GitHub
+
+## Fitur Utama
+
+- Menampilkan enam karakter.
+- Menampilkan nama, role, dan level.
+- Warna kartu berbeda berdasarkan role karakter.
+- Level minimal 5 ditampilkan dengan warna emas dan font tebal.
+- Menampilkan jumlah karakter.
+- Menghitung rata-rata level karakter.
+- Menampilkan informasi tambahan melalui tooltip.
+
+## Struktur Program
+
+```text
+src/
+└── com/
+    └── unpri/
+        └── charactermanager/
+            ├── Main.java
+            ├── model/
+            │   ├── Character.java
+            │   ├── CharacterManager.java
+            │   └── CharacterType.java
+            └── view/
+                ├── AppTheme.java
+                └── MainWindow.java
+```
+
+## Pengujian
+
+Pengujian dilakukan untuk memastikan:
+
+1. Aplikasi dapat dijalankan.
+2. Seluruh karakter tampil dengan benar.
+3. Warna kartu sesuai dengan role.
+4. Level tinggi ditampilkan dengan penanda khusus.
+5. Jumlah karakter dan rata-rata level dihitung dengan benar.
+
+## Dokumentasi
+
+**Screenshot sebelum perubahan**
+![alt text](<Screenshot 2026-10-23 143614.png>)
+
+**Screenshot sesudah perubahan**
+![alt text](image-2.png)
+
+## Google Docs
+https://docs.google.com/document/d/1sAtDeQZZj2kVs94TOLaSVdip59FUTPXp7M2KCwu-RXQ/edit?usp=sharing
+
+
+## Kesimpulan
+
+Melalui proyek ini, konsep OOP dan pemisahan tanggung jawab diterapkan dalam pengembangan aplikasi Java Swing. Penggunaan AppTheme dan MainWindow membuat tampilan lebih konsisten, sedangkan CharacterManager membantu mengelola data karakter secara terpisah. Proyek ini dapat dikembangkan lebih lanjut dengan fitur pencarian, pengeditan, penghapusan, dan penyimpanan data karakter.
+
